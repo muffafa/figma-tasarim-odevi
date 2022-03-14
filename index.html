@@ -9,9 +9,13 @@
 
     <!-- dışardan import -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- içerden import -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -19,23 +23,25 @@
 
 <body>
     <header>
-        <h2>BEUNI</h2>
-        <div class="hamburger-menu">menu</div>
+        <div class="header-content">
+            <h2>BEUNI</h2>
+            <div class="hamburger-menu">menu</div>
+        </div>
     </header>
     <main>
         <div class="container">
             <section class="main-left">
                 <div class="media-content">
                     <div class="social-media">
-                        <div class="instagram">
-
-                        </div>
-                        <div class="facebook">
-
-                        </div>
-                        <div class="twitter">
-
-                        </div>
+                        <a href="https://www.instagram.com/" target="_blank" class="instagram">
+                            <i class="fab fa-instagram fa-xl"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="facebook">
+                            <i class="fab fa-facebook fa-xl"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="twitter">
+                            <i class="fab fa-twitter fa-xl"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="model-photo">
@@ -43,28 +49,30 @@
                 </div>
             </section>
             <section class="main-right">
-                <div class="right-margin">
-                    <section class="upper">
-                        <h1>SUNSET MODEL</h1>
-                        <h2>LANDSCAPE</h2>
-                        <h2>PHOTO</h2>
-                    </section>
-                    <section class="lower">
-                        <div class="info-text">
-                            <p>
-                                Fashion and Beauty is one of the
-                                most blogging fashion titles.
-                                In addition to the content related
-                                to fashion and the latest trends,
-                                the website offers beautiful photo
-                                inspiration.
-                            </p>
-                        </div>
-                        <div class="more-button">
-                            Read more ->
-                        </div>
-                    </section>
-                </div>
+                <section class="upper">
+                    <h1>SUNSET 
+                        <span class="model-photo-sm">
+                            <img src="./img/figma_small.jpg" alt="Model Photo">
+                        </span> 
+                        MODEL</h1>
+                    <h2>LANDSCAPE</h2>
+                    <h2>PHOTO</h2>
+                </section>
+                <section class="lower">
+                    <div class="info-text">
+                        <p>
+                            Fashion and Beauty is one of the
+                            most blogging fashion titles.
+                            In addition to the content related
+                            to fashion and the latest trends,
+                            the website offers beautiful photo
+                            inspiration.
+                        </p>
+                    </div>
+                    <div class="more-button">
+                        Read more ->
+                    </div>
+                </section>
             </section>
         </div>
     </main>

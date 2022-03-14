@@ -1,0 +1,116 @@
+* 
+{
+box-sizing: border-box;
+}
+
+@font-face { font-family: Mart; src: url(./fonts/Mart.ttf); }
+@font-face { font-family: Aligrah-SemiBold; src: url(./fonts/Aligrah-SemiBold.ttf); }
+
+body{
+    background-color: #E8E6DA;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    margin-top: 30px;
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h2 {
+    font-family: Aligrah-SemiBold;
+    font-size: 16px;
+}
+
+/*Main*/
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1280px;
+    display: flex;
+}
+
+.main-left{
+    display: flex;
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 100px;
+}
+
+/*main-left*/
+.media-content{
+    width: 96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media > a{
+    all: unset;
+    cursor: pointer;
+}
+
+.model-photo{
+    margin-left: 58px ;
+    margin-top: 15px;
+}
+
+.model-photo > img {
+    border-radius: 160px;
+}
+
+/*main-right*/
+
+/*upper*/
+.model-photo-sm > img{
+    border-radius: 45px;
+}
+
+/*lower*/
+.lower{
+    display: flex;
+}
+
+.info-text{
+    width: 194px;
+
+    margin-top: 26px;
+    margin-left: 18px;
+}
+
+.info-text > p{
+    font-family: Mart;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 1280px;
+    display: flex;
+}
