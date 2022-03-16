@@ -5,12 +5,22 @@ box-sizing: border-box;
 
 @font-face { 
     font-family: "Mart"; 
-    src: url(./fonts/Mart.ttf);
+    src: url(../fonts/Mart.ttf);
 }
 
 @font-face { 
-    font-family: "Aligrah-SemiBold"; 
-    src: url(./fonts/Aligrah-SemiBold.ttf);
+    font-family: "Aligrah SemiBold"; 
+    src: url(../fonts/Aligarh-SemiBold.ttf);
+}
+
+@font-face { 
+    font-family: "Romely Medium"; 
+    src: url(../fonts/Romely-Medium.ttf);
+}
+
+@font-face { 
+    font-family: "Gramers Medium"; 
+    src: url(../fonts/Gramers-Medium.ttf);
 }
 
 body{
@@ -38,7 +48,7 @@ header{
 }
 
 .header-content > h2 {
-    font-family: Aligrah-SemiBold;
+    font-family: "Aligrah SemiBold";
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -146,7 +156,7 @@ main{
 }
 
 .info-text > p{
-    font-family: Mart;
+    font-family: "Mart";
 }
 
 .more-button{
