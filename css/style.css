@@ -23,6 +23,11 @@ box-sizing: border-box;
     src: url(../fonts/Gramers-Medium.ttf);
 }
 
+@font-face { 
+    font-family: "Gramers Light"; 
+    src: url(../fonts/Gramers-Light.ttf);
+}
+
 body{
     background-color: #E8E6DA;
 }
@@ -125,8 +130,25 @@ main{
     font-size: 72px;
 }
 
+.model-sm-text{
+    color: #c5975b;
+}
+
 .landscape{
     margin-left: 69px; 
+    display: flex;
+}
+
+.landscape >h2{
+    font-size: 72px;
+}
+
+.land{
+    font-family: "Romely Medium";
+}
+
+.scape{
+    font-family: "Gramers Light";
 }
 
 .text-with-hr{
@@ -134,15 +156,25 @@ main{
     align-items: center;
 }
 
+.text-with-hr >h2{
+    font-family: "Romely Medium";
+    font-size: 72px;
+}
+
 .horizontal-row{
-    width: 138px;
+    width: 148px;
     height: 4px;
+    
     background-color: black;
+
     margin-right: 10px;
+    margin-left: 16px;
 }
 
 .model-photo-sm > img{
     border-radius: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /*lower*/
@@ -160,6 +192,8 @@ main{
 
 .info-text > p{
     font-family: "Mart";
+    font-size: 12px;
+    line-height: 24px;
 }
 
 .more-button{
@@ -173,6 +207,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    font-family: "Mart";
+    font-size: 14px;
 }
 
 /*Footer*/
@@ -207,6 +244,9 @@ footer{
 /* footer-left*/
 .footer-left > p{
     text-align: center;
+    font-family: "Romely Medium";
+    font-size: 16px;
+    line-height: 18px;
 }
 
 /* footer-middle*/
@@ -231,6 +271,9 @@ footer{
 
 .footer-middle > nav > ul > li{
     display: inline;
+
+    font-family: "Mart";
+    font-size: 14px;
 }
 
 /* footer-right*/
